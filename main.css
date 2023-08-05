@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(100,100,100);
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.gap5 {
+  gap: 5px;
+}
+
+.gap10 {
+  gap: 10px;
+}
+
+.center {
+  align-items: center;
+}

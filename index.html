@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Something</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <canvas id="app"></canvas>
+    <div class="flex flex-column gap10">
+      <button id="next_btn">Next</button>
+      <div class="flex flex-row gap5">
+        <button id="play_btn">Play</button>
+        <div class="flex flex-column center">
+          <input type="range" min="1" max="50" value="10" id="framePerSeconds_input">
+          <span><B><span id="framePerSecondsDisplay">10</span> /s</B></span>
+        </div>
+      </div>
+      <button id="pause_btn" disabled>Pause</button>
+      <button id="reset_btn">Reset</button>
+    </div>
+    
+    <script src="src/controls.js"></script>
+    <script src="src/board.js"></script>
+    <script src="src/renderer.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
